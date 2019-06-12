@@ -14,9 +14,9 @@ function Active() {
 
   return (
       <div>
-        <FormControl component="fieldset">
+        <FormControl style={{marginRight: '100px'}} component="fieldset">
         <FormLabel component="legend">Active:</FormLabel>
-            <RadioGroup aria-label="position" name="position" value={value} onChange={handleChange} row>
+            <RadioGroup style={{flexDirection: 'column', justifyContent: 'flex-start'}} aria-label="position" name="position" value={value} onChange={handleChange} row>
                 <FormControlLabel
                     value="yes"
                     control={<Radio color="primary" />}

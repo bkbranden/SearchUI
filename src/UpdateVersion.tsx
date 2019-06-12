@@ -33,8 +33,8 @@ const useStyles = makeStyles((theme: Theme) =>
       flexWrap: 'wrap',
     },
     textField: {
-      marginLeft: theme.spacing(1),
-      marginRight: theme.spacing(1),
+      marginLeft: theme.spacing(3),
+      marginRight: theme.spacing(3),
     },
     dense: {
       marginTop: 16,
@@ -78,7 +78,6 @@ function UpdateVersion() {
                 shrink: true,
                 }}
                 margin="normal"
-                variant="filled"
             />
             <TextField
                 id="filled-number"
@@ -91,7 +90,6 @@ function UpdateVersion() {
                 shrink: true,
                 }}
                 margin="normal"
-                variant="filled"
             />
             <TextField
                 id="filled-number"
@@ -104,33 +102,6 @@ function UpdateVersion() {
                 shrink: true,
                 }}
                 margin="normal"
-                variant="filled"
-            />
-            <TextField
-                id="filled-number"
-                label="Number"
-                value={values.age}
-                onChange={handleChange('age')}
-                type="number"
-                className={classes.textField}
-                InputLabelProps={{
-                shrink: true,
-                }}
-                margin="normal"
-                variant="filled"
-            />
-            <TextField
-                id="filled-number"
-                label="Number"
-                value={values.age}
-                onChange={handleChange('age')}
-                type="number"
-                className={classes.textField}
-                InputLabelProps={{
-                shrink: true,
-                }}
-                margin="normal"
-                variant="filled"
             />
         </div>
   )

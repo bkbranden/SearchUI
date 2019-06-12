@@ -1,0 +1,21 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.hhid-user-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.search-button {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.search-button-container {
+    display: flex;
+    justify-content: flex-start;
+}

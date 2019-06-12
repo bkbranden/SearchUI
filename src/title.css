@@ -1,0 +1,10 @@
+.search-title {
+    font-size: 2.5em;
+    font-family: aktiv-grotesk, Helvetica, Arial, sans-serif;
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d8d8d8;
+    font-weight: 400;
+}

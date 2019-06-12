@@ -14,9 +14,9 @@ function HHID() {
 
   return (
       <div>
-        <FormControl component="fieldset">
+        <FormControl style={{marginLeft: '100px'}} component="fieldset">
         <FormLabel component="legend">HHID:</FormLabel>
-            <RadioGroup aria-label="position" name="position" value={value} onChange={handleChange} row>
+            <RadioGroup style={{flexDirection: 'column', justifyContent: 'flex-start'}} aria-label="position" name="position" value={value} onChange={handleChange} row>
                 <FormControlLabel
                     value="yes"
                     control={<Radio color="primary" />}
